@@ -2,16 +2,16 @@ import Image from 'next/image'
 
 import styles from './Presentation.module.css'
 
-// import {
-//   SiJavascript,
-//   SiReact,
-//   SiTypescript,
-//   SiCss3,
-//   SiHtml5,
-//   SiGit,
-// } from 'react-icons/Si'
+import {
+  SiJavascript,
+  SiReact,
+  SiTypescript,
+  SiCss3,
+  SiHtml5,
+  SiGit,
+} from 'react-icons/Si'
 
-// import { TbBrandNextjs } from 'react-icons/Tb'
+import { TbBrandNextjs } from 'react-icons/Tb'
 
 export default function Presentation() {
   return (
@@ -19,49 +19,49 @@ export default function Presentation() {
       <div className={styles.skills} data-aos='fade-up' data-aos-delay='100'>
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            {/* <TbBrandNextjs size={52} weight='thin' /> */}
+            <TbBrandNextjs size={52} weight='thin' />
             <p>Nextjs</p>
           </span>
         </div>
 
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            {/* <SiReact size={52} weight='thin' /> */}
+            <SiReact size={52} weight='thin' />
             <p>React</p>
           </span>
         </div>
 
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            {/* <SiJavascript size={52} weight='thin' /> */}
+            <SiJavascript size={52} weight='thin' />
             <p>Javascript</p>
           </span>
         </div>
 
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            {/* <SiTypescript size={52} weight='thin' /> */}
+            <SiTypescript size={52} weight='thin' />
             <p>Typescript</p>
           </span>
         </div>
 
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            {/* <SiCss3 size={52} weight='thin' /> */}
+            <SiCss3 size={52} weight='thin' />
             <p>Css</p>
           </span>
         </div>
 
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            {/* <SiHtml5 size={52} weight='thin' /> */}
+            <SiHtml5 size={52} weight='thin' />
             <p>Html</p>
           </span>
         </div>
 
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            {/* <SiGit size={52} weight='thin' /> */}
+            <SiGit size={52} weight='thin' />
             <p>Git</p>
           </span>
         </div>

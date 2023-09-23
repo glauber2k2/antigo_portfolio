@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import ProjectWindow from '../ProjectWindow'
-// import { BiChevronsDown } from 'react-icons/Bi'
+import { BiChevronsDown } from 'react-icons/Bi'
 
 import styles from './Projects.module.css'
 
@@ -73,7 +73,7 @@ export default function Projects() {
           <ProjectWindow />
         </div>
 
-        {/* <BiChevronsDown size={64} color='#fcfcfc' weight='duotone' /> */}
+        <BiChevronsDown size={64} color='#fcfcfc' weight='duotone' />
         <div className={styles.projectMsg}>
           <h2>
             Use o notebook para <span>visualizar</span> os meus projetos.

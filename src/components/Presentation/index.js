@@ -3,13 +3,13 @@ import Image from 'next/image'
 import styles from './Presentation.module.css'
 
 import {
-  SiJavascript,
-  SiReact,
-  SiTypescript,
-  SiCss3,
-  SiHtml5,
-  SiGit,
-} from 'react-icons/Si'
+  FileJs,
+  FileTs,
+  Waves,
+  AngularLogo,
+  Atom,
+  FigmaLogo,
+} from 'phosphor-react'
 
 import { TbBrandNextjs } from 'react-icons/Tb'
 
@@ -19,50 +19,50 @@ export default function Presentation() {
       <div className={styles.skills} data-aos='fade-up' data-aos-delay='100'>
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            <TbBrandNextjs size={52} weight='thin' />
+            <TbBrandNextjs className='w-12 h-12' weight='fill' />
             <p>Nextjs</p>
           </span>
         </div>
 
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            <SiReact size={52} weight='thin' />
+            <Atom className='w-12 h-12' weight='fill' />
             <p>React</p>
           </span>
         </div>
 
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            <SiJavascript size={52} weight='thin' />
+            <FileJs className='w-12 h-12' weight='fill' />
             <p>Javascript</p>
           </span>
         </div>
 
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            <SiTypescript size={52} weight='thin' />
+            <FileTs className='w-12 h-12' weight='fill' />
             <p>Typescript</p>
           </span>
         </div>
 
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            <SiCss3 size={52} weight='thin' />
-            <p>Css</p>
+            <Waves className='w-12 h-12' weight='fill' />
+            <p>TailwindCSS</p>
           </span>
         </div>
 
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            <SiHtml5 size={52} weight='thin' />
-            <p>Html</p>
+            <AngularLogo className='w-12 h-12' weight='fill' />
+            <p>Angular</p>
           </span>
         </div>
 
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            <SiGit size={52} weight='thin' />
-            <p>Git</p>
+            <FigmaLogo className='w-12 h-12' weight='fill' />
+            <p>Figma</p>
           </span>
         </div>
       </div>
@@ -106,9 +106,9 @@ export default function Presentation() {
           className={styles.detailsH1}
         >
           <h1 className={styles.fillh1}>DIFERENCIAIS</h1>
-          <h1 className={styles.thinh1}>DIFERENCIAIS</h1>
           <h1 className={styles.fillh1}>DIFERENCIAIS</h1>
-          <h1 className={styles.thinh1}>DIFERENCIAIS</h1>
+          <h1 className={styles.fillh1}>DIFERENCIAIS</h1>
+          <h1 className={styles.fillh1}>DIFERENCIAIS</h1>
           <h1 className={styles.fillh1}>DIFERENCIAIS</h1>
         </div>
       </div>

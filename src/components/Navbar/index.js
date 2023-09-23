@@ -3,10 +3,15 @@
 import Image from 'next/image'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { BsWhatsapp, BsInstagram, BsGithub } from 'react-icons/Bs'
-import { PiProjectorScreenChartFill } from 'react-icons/Pi'
-import { SiLinkedin } from 'react-icons/Si'
-import { BiChevronsDown, BiSolidMouse } from 'react-icons/Bi'
+import {
+  ProjectorScreen,
+  MouseSimple,
+  LinkedinLogo,
+  WhatsappLogo,
+  InstagramLogo,
+  GithubLogo,
+  CaretDoubleDown,
+} from 'phosphor-react'
 
 import { useEffect } from 'react'
 
@@ -78,7 +83,7 @@ export default function Navbar() {
             }}
             className='flex items-center justify-center gap-1 border-none text-white font-medium text-base cursor-pointer'
           >
-            <BiSolidMouse className='w-6 h-6' />
+            <MouseSimple className='w-6 h-6' />
             <p>Habilidades</p>
           </button>
 
@@ -91,7 +96,7 @@ export default function Navbar() {
             }}
             className='flex items-center justify-center gap-1 border-none text-white font-medium text-base cursor-pointer'
           >
-            <PiProjectorScreenChartFill className='w-6 h-6' />
+            <ProjectorScreen className='w-6 h-6' />
             <p>Projetos</p>
           </button>
         </div>
@@ -128,7 +133,7 @@ export default function Navbar() {
             onClick={abrirWpp}
             className='flex justify-center items-center w-52 h-10 sm:h-12 sm:w-72 gap-4 rounded-lg bg-white text-black text-lg font-medium hover:text-purple-800 sm:mt-0 mt-8'
           >
-            <BsWhatsapp weight='fill' />
+            <WhatsappLogo weight='fill' className='w-6 h-6' />
             Fale comigo!
           </button>
 
@@ -137,25 +142,28 @@ export default function Navbar() {
               onClick={abrirInsta}
               className='bg-white rounded-full text-black w-10 h-10 sm:h-12 sm:w-12 flex justify-center items-center hover:text-purple-800'
             >
-              <BsInstagram weight='fill' className=' w-4 h-4 sm:w-6 sm:h-6 ' />
+              <InstagramLogo
+                weight='fill'
+                className=' w-4 h-4 sm:w-6 sm:h-6 '
+              />
             </button>
             <button
               onClick={abrirGit}
               className='bg-white rounded-full text-black w-10 h-10 sm:h-12 sm:w-12 flex justify-center items-center hover:text-purple-800'
             >
-              <BsGithub weight='fill' className=' w-4 h-4 sm:w-6 sm:h-6 ' />
+              <GithubLogo weight='fill' className=' w-4 h-4 sm:w-6 sm:h-6 ' />
             </button>
             <button
               onClick={abrirLinkedin}
               className='bg-white rounded-full text-black w-10 h-10 sm:h-12 sm:w-12 flex justify-center items-center hover:text-purple-800'
             >
-              <SiLinkedin weight='fill' className=' w-4 h-4 sm:w-6 sm:h-6 ' />
+              <LinkedinLogo weight='fill' className=' w-4 h-4 sm:w-6 sm:h-6 ' />
             </button>
           </div>
         </div>
       </main>
 
-      <BiChevronsDown
+      <CaretDoubleDown
         weight='bold'
         data-aos='fade-up'
         data-aos-delay='2000'

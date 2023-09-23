@@ -1,11 +1,11 @@
 {
-    "theme_color": "#b21fff",
-    "background_color": "#151414",
+    "theme_color": "#000000",
+    "background_color": "#000000",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Glauber Monteiro Page",
-    "short_name": "GlauberPage",
+    "name": "GlauberSM",
+    "short_name": "GSM",
     "description": "My Web Portfolio",
     "icons": [
         {

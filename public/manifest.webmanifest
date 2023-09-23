@@ -4,8 +4,8 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "GlauberSM",
-    "short_name": "GSM",
+    "name": "GlauberSM Page",
+    "short_name": "GlauberPage",
     "description": "My Web Portfolio",
     "icons": [
         {

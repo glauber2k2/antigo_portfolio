@@ -97,7 +97,7 @@ export default function Presentation() {
           >
             Imagens com IA
           </h1>
-          <p className='sm:text-[1.2vw] text-purple-500 sm:p-8 text-justify text-[16px] p-4 sm:text-start'>
+          <p className='sm:text-[1.2vw] text-purple-500 sm:p-8 text-justify text-[16px] p-4 sm:text-start h-32 md:h-48 xl:h-60'>
             Transformo seu site em uma obra de arte visual, criando imagens
             únicas e impactantes utlizando inteligência artificial.
           </p>
@@ -117,9 +117,10 @@ export default function Presentation() {
           <h1 className='sm:text-[4vw] text-purple-500 p-4 sm:p-8 text-center sm:text-start text-[46px]'>
             Percepção de Design
           </h1>
-          <p className='sm:text-[1.2vw] text-purple-500 sm:p-8 text-justify text-[16px] p-4 sm:text-start'>
-            Transformo seu site em uma obra de arte visual, criando imagens
-            únicas e impactantes utlizando inteligência artificial.
+          <p className='sm:text-[1.2vw] text-purple-500 sm:p-8 text-justify text-[16px] p-4 sm:text-start h-32 md:h-48 xl:h-60'>
+            Sempre tive como hobbie edição grafica, e hoje possuo uma ótima
+            percepção para design, e assim construindo para criar boas
+            interfaces.
           </p>
 
           <Image

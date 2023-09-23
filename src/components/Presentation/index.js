@@ -11,15 +11,13 @@ import {
   FigmaLogo,
 } from 'phosphor-react'
 
-import { TbBrandNextjs } from 'react-icons/Tb'
-
 export default function Presentation() {
   return (
     <main className={styles.container} id='skills'>
       <div className={styles.skills} data-aos='fade-up' data-aos-delay='100'>
         <div data-aos='fade-up' data-aos-delay='100'>
           <span>
-            <TbBrandNextjs className='w-12 h-12' weight='fill' />
+            <p className='w-12 h-12 text-4xl text-center font-bold'>N</p>
             <p>Nextjs</p>
           </span>
         </div>

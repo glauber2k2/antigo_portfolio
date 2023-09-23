@@ -1,0 +1,197 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 3rem 2rem;
+  gap: 3vh;
+}
+
+.skills {
+  position: relative;
+  background: #000;
+  color: #000;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  /* border-top: 1px solid #9a36f7; */
+}
+
+.skills::before {
+  content: 'Minhas habilidades';
+  font-size: 1.2vw;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 0 15px;
+}
+
+.skills span {
+  display: flex;
+  width: 10vw;
+  height: 16vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  transition: 0.6s;
+  background-color: #9a36f7;
+  user-select: none;
+  box-shadow: 3px 3px 21px #000000, -3px -3px 5px #c300ff;
+}
+
+.skills span:hover {
+  transform: scale(110%);
+}
+
+.nextLogo {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+.diferentials {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  gap: 3rem;
+}
+
+.diferentials span {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #9a36f7;
+  width: 30%;
+  height: 90%;
+}
+
+.diferentials span h1 {
+  font-size: 4vw;
+  color: #9a36f7;
+  padding: 2rem;
+}
+
+.diferentials span p {
+  font-size: 1.2vw;
+  color: #9a36f7;
+  padding: 2rem;
+}
+
+.ia {
+  display: flex;
+  position: absolute;
+  object-fit: scale-down;
+  width: 100%;
+  height: 61%;
+  top: -5%;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.705));
+}
+
+.design {
+  display: flex;
+  position: absolute;
+  object-fit: scale-down;
+  width: 100%;
+  height: 50%;
+  bottom: -5%;
+  left: -40%;
+}
+
+.detailsH1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.7vw;
+  gap: 1vw;
+}
+
+.fillh1 {
+  font-weight: 500;
+  color: #9a36f7;
+  opacity: 30%;
+}
+.thinh1 {
+  font-weight: 500;
+  opacity: 30%;
+}
+@media (max-width: 950px) {
+  .container {
+    padding: 2rem 0.5rem;
+    height: 100%;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5rem;
+    height: 30%;
+    margin-bottom: 1rem;
+  }
+
+  .skills::before {
+    content: 'habilidades';
+    font-size: 4vw;
+    top: -5%;
+  }
+
+  .skills span {
+    margin-top: 1rem;
+    width: 19vw;
+    height: 30vw;
+  }
+
+  .skills span p {
+    font-size: 3vw;
+  }
+
+  .diferentials {
+    justify-content: center;
+    height: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .diferentials span {
+    width: 22rem;
+    height: 20rem;
+  }
+
+  .diferentials span h1 {
+    text-align: center;
+    font-size: 46px;
+    padding: 1rem;
+  }
+
+  .diferentials span p {
+    text-align: justify;
+    font-size: 16px;
+    padding: 1rem;
+  }
+
+  .ia {
+    width: 100%;
+    height: 12rem;
+    top: -8%;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.705));
+  }
+
+  .design {
+    width: 10rem;
+    height: 10rem;
+    bottom: -10%;
+    left: -13%;
+  }
+
+  .detailsH1 {
+    display: none;
+  }
+}

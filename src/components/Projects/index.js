@@ -1,91 +1,41 @@
-import Image from 'next/image'
 import ProjectWindow from '../ProjectWindow'
 import { CaretDoubleDown } from 'phosphor-react'
 
-import styles from './Projects.module.css'
-
 export default function Projects() {
   return (
-    <main className={styles.container} id='projects'>
-      <div className={styles.topContainer}>
-        <div className={styles.title} data-aos='fade-up' data-aos-delay='100'>
-          <h1>
-            MEUS <span>PROJETOS</span>
-          </h1>
-          <h3>
-            Venha conhecer alguns de meus ultimos projetos! e veja o sentimento
-            que um site bem feito é capaz de passar ao acessante.
-          </h3>
-        </div>
-        <div className={styles.images} data-aos='fade-up' data-aos-delay='150'>
-          <Image
-            src='/images/projects1.png'
-            width={1280}
-            height={1280}
-            alt=''
-            className={styles.image1}
-            data-aos='fade-up'
-            data-aos-delay='200'
-          />
+    <main
+      className='flex sm:flex-row flex-col sm:gap-y-0 gap-y-12 xl:h-screen sm:px-[10%] py-8 sm:py-12'
+      id='projects'
+    >
+      {/* <Image src={} width={} height={} alt /> */}
 
-          <Image
-            src='/images/projects2.png'
-            width={1280}
-            height={1280}
-            alt=''
-            className={styles.image2}
-            data-aos='fade-up'
-            data-aos-delay='250'
-          />
-
-          <Image
-            src='/images/project3.png'
-            width={1280}
-            height={1280}
-            alt=''
-            className={styles.image3}
-            data-aos='fade-up'
-            data-aos-delay='300'
-          />
-
-          <Image
-            src='/images/projects4.png'
-            width={1280}
-            height={1280}
-            alt=''
-            className={styles.image4}
-            data-aos='fade-up'
-            data-aos-delay='350'
-          />
-        </div>
-      </div>
       <div
-        className={styles.bottomContainer}
-        data-aos='fade-up'
-        data-aos-delay='350'
+        className='flex flex-col sm:w-1/2 w-full h-1/2 sm:h-full justify-center items-center p-4 gap-y-2'
+        // data-aos='fade-up'
+        // data-aos-delay='100'
       >
+        <h1 className='sm:text-[4vw] text-3xl font-medium xl:h-20'>
+          MEUS <span className='bg-purple-500 text-black'>PROJETOS</span>
+        </h1>
+        <h2 className='text-base sm:text-[1.5vw] font-medium xl:mb-4'>
+          use o notebook abaixo!
+        </h2>
+
+        <h3 className='w-4/5 text-xs sm:text-[1vw] text-center'>
+          Para visualziar meus projetos, role a tela do notebook. e veja como um
+          site bem construido pode passar confiança a quem está acessando.
+        </h3>
+      </div>
+
+      <div className='sm:w-1/2 w-full flex justify-center items-center h-1/2 sm:h-full'>
         <div
-          className={styles.notebook}
-          data-aos='zoom-in-up'
-          data-aos-delay='100'
-          data-aos-duration='1000'
+          className='w-[80%]  flex'
+          // data-aos='zoom-in-up'
+          // data-aos-delay='100'
+          // data-aos-duration='1000'
         >
           <ProjectWindow />
-        </div>
-
-        <CaretDoubleDown className='w-12 h-12' weight='fill' />
-        <div className={styles.projectMsg}>
-          <h2 className='lg:hidden flex flex-col'>
-            Use o notebook acima para visualizar os meus projetos.
-          </h2>
-          <h2 className='lg:flex hidden flex-col'>
-            Use o notebook ao lado para visualizar os meus projetos.
-          </h2>
-
-          <h3>
-            Clique no projeto que deseja visualizar, e automaticamente será
-            <span>redirecionado</span> para a visualização completa da página.
-          </h3>
+          {/* <CaretDoubleDown className='w-12 h-12' weight='fill' /> */}
         </div>
       </div>
     </main>

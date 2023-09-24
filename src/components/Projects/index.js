@@ -30,7 +30,7 @@ export default function Projects() {
           data-aos='fade-up'
           data-aos-delay='300'
         >
-          Para visualziar meus projetos, role a tela do notebook. e veja como um
+          Para visualizar meus projetos, role a tela do notebook. e veja como um
           site bem construido pode passar confiança a quem está acessando.
         </h3>
       </div>

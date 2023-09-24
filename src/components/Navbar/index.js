@@ -121,6 +121,8 @@ export default function Navbar() {
           width={420}
           height={420}
           alt=''
+          data-aos='flip-left'
+          data-aos-delay='600'
           className='w-36 h-36 rounded-full p-2 border-2 border-white sm:hidden'
         />
         <h4

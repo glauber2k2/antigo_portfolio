@@ -4,7 +4,7 @@ import { CaretDoubleDown } from 'phosphor-react'
 export default function Projects() {
   return (
     <main
-      className='flex sm:flex-row flex-col sm:gap-y-0 gap-y-12 xl:h-screen sm:px-[10%] py-8 sm:py-12'
+      className='flex sm:flex-row flex-col sm:gap-y-0 gap-y-12 xl:h-screen sm:px-[10%] pt-8 pb-28 sm:py-12 sm:pb-0 sm:pt-0'
       id='projects'
     >
       {/* <Image src={} width={} height={} alt /> */}
@@ -37,13 +37,16 @@ export default function Projects() {
 
       <div className='sm:w-1/2 w-full flex justify-center items-center h-1/2 sm:h-full'>
         <div
-          className='w-[80%]  flex'
+          className='w-[80%] relative flex'
           data-aos='zoom-in-up'
-          data-aos-delay='500'
+          data-aos-delay='400'
           data-aos-duration='1000'
         >
           <ProjectWindow />
-          {/* <CaretDoubleDown className='w-12 h-12' weight='fill' /> */}
+          <CaretDoubleDown
+            className='2xl:w-10 2xl:h-10 lg:w-8 lg:h-8 w-4 h-4 absolute right-0 bottom-[45%] animate-bounce'
+            weight='thin'
+          />
         </div>
       </div>
     </main>

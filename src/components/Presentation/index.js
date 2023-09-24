@@ -111,7 +111,7 @@ export default function Presentation() {
           >
             Imagens com IA
           </h1>
-          <p className='sm:text-[1.2vw] text-purple-500 sm:p-8 text-justify text-[16px] p-4 sm:text-start h-32 md:h-48 xl:h-60'>
+          <p className='sm:text-[1.2vw] text-purple-500 sm:p-8 text-justify text-[16px] p-8 sm:text-start h-46 md:h-48 xl:h-60'>
             Transformo seu site em uma obra de arte visual, criando imagens
             únicas e impactantes utlizando inteligência artificial.
           </p>
@@ -120,7 +120,7 @@ export default function Presentation() {
             width={1280}
             height={1280}
             alt='ia'
-            className='flex absolute object-scale-down w-full sm:h-full h-48 top-[-15%] sm:top-[-25%]'
+            className='flex absolute object-scale-down w-full sm:h-full h-48 top-[-10%] sm:top-[-25%]'
           />
         </span>
         <span
@@ -131,7 +131,7 @@ export default function Presentation() {
           <h1 className='sm:text-[4vw] text-purple-500 p-4 sm:p-8 text-center sm:text-start text-[46px]'>
             Percepção de Design
           </h1>
-          <p className='sm:text-[1.2vw] text-purple-500 sm:p-8 text-justify text-[16px] p-4 sm:text-start h-32 md:h-48 xl:h-60'>
+          <p className='sm:text-[1.2vw] text-purple-500 sm:p-8 text-justify text-[16px] p-8 sm:text-start h-46 md:h-48 xl:h-60'>
             Sempre tive como hobbie edição grafica, e hoje possuo uma ótima
             percepção para design, e assim construindo para criar boas
             interfaces.
@@ -142,7 +142,7 @@ export default function Presentation() {
             width={1280}
             height={1280}
             alt='design'
-            className='flex absolute object-scale-down w-1/2 sm:h-1/2 h-2/5 bottom-[-5%] left-[-20%]'
+            className='flex absolute object-scale-down w-1/2 sm:h-1/2 h-2/5 bottom-[-10%] left-[-20%]'
           />
         </span>
 

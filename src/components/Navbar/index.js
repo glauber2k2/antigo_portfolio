@@ -100,21 +100,29 @@ export default function Navbar() {
           </button>
         </div>
       </nav>
-      <main className='flex flex-col p-4 sm:p-36 h-4/5 justify-center'>
+      <main className='flex flex-col p-4 sm:p-36 h-4/5 justify-center items-center sm:items-start mt-6'>
         <h1
           data-aos='fade-up'
           data-aos-delay='600'
-          className='text-[42px] sm:text-[8vw] sm:text-start text-center leading-none'
+          className='text-[42px] sm:text-[8vw] sm:text-start text-center leading-none sm:flex hidden'
         >
           Glauber
         </h1>
         <h1
           data-aos='fade-up'
           data-aos-delay='700'
-          className='text-[42px] sm:text-[8vw] sm:text-start text-center leading-none'
+          className='text-[42px] sm:text-[8vw] sm:text-start text-center leading-none sm:flex hidden'
         >
           Monteiro
         </h1>
+
+        <Image
+          src='https://github.com/glauber2k2.png'
+          width={420}
+          height={420}
+          alt=''
+          className='w-36 h-36 rounded-full p-2 border-2 border-white sm:hidden'
+        />
         <h4
           data-aos='fade-up'
           data-aos-delay='800'

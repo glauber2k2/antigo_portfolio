@@ -4,5 +4,7 @@ const withPWA = require('next-pwa')({
 })
 
 module.exports = withPWA({
-  // next.js config
+  images: {
+    domains: ['github.com'],
+  },
 })

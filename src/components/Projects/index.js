@@ -75,8 +75,11 @@ export default function Projects() {
 
         <CaretDoubleDown className='w-12 h-12' weight='fill' />
         <div className={styles.projectMsg}>
-          <h2>
-            Use o notebook para <span>visualizar</span> os meus projetos.
+          <h2 className='lg:hidden flex flex-col'>
+            Use o notebook acima para visualizar os meus projetos.
+          </h2>
+          <h2 className='lg:flex hidden flex-col'>
+            Use o notebook ao lado para visualizar os meus projetos.
           </h2>
 
           <h3>

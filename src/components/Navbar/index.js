@@ -62,7 +62,7 @@ export default function Navbar() {
             <h1 className='font-bold text-xl sm:text-2xl tracking-tight'>
               Glauber Monteiro
             </h1>
-            <h3 className='tracking-tighter	text-purple-600 font-semibold mt-[-0.7rem] text-xs sm:text-base'>
+            <h3 className='tracking-tighter	text-purple-500 font-semibold mt-[-0.6rem] text-xs sm:text-base'>
               Web Developer
             </h3>
           </div>
@@ -143,7 +143,7 @@ export default function Navbar() {
             >
               <InstagramLogo
                 weight='fill'
-                className=' w-4 h-4 sm:w-6 sm:h-6 '
+                className=' w-6 h-6 sm:w-8 sm:h-8 '
               />
               <span className='absolute -top-14 left-[50%] -translate-x-[50%] z-20 origin-left scale-0 px-3 rounded-lg border border-gray-300 bg-white py-2 text-sm font-bold shadow-md transition-all duration-300 ease-in-out group-hover:scale-100'>
                 Instagram
@@ -173,7 +173,7 @@ export default function Navbar() {
               onClick={abrirLinkedin}
               className='bg-white hover:bg-purple-500 rounded-full text-black w-10 h-10 sm:h-12 sm:w-12 flex justify-center items-center group relative'
             >
-              <LinkedinLogo weight='fill' className=' w-4 h-4 sm:w-6 sm:h-6 ' />
+              <LinkedinLogo weight='fill' className=' w-6 h-6 sm:w-8 sm:h-8 ' />
               <span className='absolute -top-14 left-[50%] -translate-x-[50%] z-20 origin-left scale-0 px-3 rounded-lg border border-gray-300 bg-white py-2 text-sm font-bold shadow-md transition-all duration-300 ease-in-out group-hover:scale-100'>
                 Linkedin
               </span>

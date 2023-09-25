@@ -77,7 +77,7 @@ export default function Navbar() {
             onClick={() => {
               const targetElement = document.getElementById('skills')
               if (targetElement) {
-                targetElement.scrollIntoView({ behavior: 'lgooth' })
+                targetElement.scrollIntoView({ behavior: 'smooth' })
               }
             }}
             className='flex items-center justify-center gap-1 border-none text-white font-medium text-base cursor-pointer'
@@ -90,7 +90,7 @@ export default function Navbar() {
             onClick={() => {
               const targetElement = document.getElementById('projects')
               if (targetElement) {
-                targetElement.scrollIntoView({ behavior: 'lgooth' })
+                targetElement.scrollIntoView({ behavior: 'smooth' })
               }
             }}
             className='flex items-center justify-center gap-1 border-none text-white font-medium text-base cursor-pointer'
@@ -200,7 +200,7 @@ export default function Navbar() {
         onClick={() => {
           const targetElement = document.getElementById('skills')
           if (targetElement) {
-            targetElement.scrollIntoView({ behavior: 'lgooth' })
+            targetElement.scrollIntoView({ behavior: 'smooth' })
           }
         }}
       />

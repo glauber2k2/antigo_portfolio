@@ -15,6 +15,7 @@ import {
 import { useEffect } from 'react'
 
 import styles from './Navbar.module.css'
+import DownloadPWA from '../DownloadPwa'
 
 export default function Navbar() {
   useEffect(() => {
@@ -69,15 +70,17 @@ export default function Navbar() {
         </div>
 
         <div
-          className='flex justify-center items-center gap-8 mt-4'
+          className='flex justify-center items-center gap-4 mt-4 flex-wrap'
           data-aos='fade-up'
           data-aos-delay='400'
         >
+          <DownloadPWA />
+
           <button
             onClick={() => {
               const targetElement = document.getElementById('skills')
               if (targetElement) {
-                targetElement.scrollIntoView({ behavior: 'lgooth' })
+                targetElement.scrollIntoView({ behavior: 'smooth' })
               }
             }}
             className='flex items-center justify-center gap-1 border-none text-white font-medium text-base cursor-pointer'
@@ -90,7 +93,7 @@ export default function Navbar() {
             onClick={() => {
               const targetElement = document.getElementById('projects')
               if (targetElement) {
-                targetElement.scrollIntoView({ behavior: 'lgooth' })
+                targetElement.scrollIntoView({ behavior: 'smooth' })
               }
             }}
             className='flex items-center justify-center gap-1 border-none text-white font-medium text-base cursor-pointer'
@@ -200,7 +203,7 @@ export default function Navbar() {
         onClick={() => {
           const targetElement = document.getElementById('skills')
           if (targetElement) {
-            targetElement.scrollIntoView({ behavior: 'lgooth' })
+            targetElement.scrollIntoView({ behavior: 'smooth' })
           }
         }}
       />

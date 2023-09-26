@@ -5,6 +5,6 @@ const withPWA = require('next-pwa')({
 
 module.exports = withPWA({
   images: {
-    domains: ['github.com'],
+    domains: ['github.com', 'raw.githubusercontent.com'],
   },
 })

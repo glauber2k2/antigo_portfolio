@@ -6,6 +6,7 @@ import Presentation from '../components/Presentation'
 import Projects from '../components/Projects'
 
 import styles from '../app/Home.module.css'
+import ModalPwa from '@/components/ModalPwa'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Navbar />
         <Presentation />
         <Projects />
+        <ModalPwa />
       </div>
     </>
   )

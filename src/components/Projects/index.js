@@ -4,11 +4,9 @@ import { CaretDoubleDown } from 'phosphor-react'
 export default function Projects() {
   return (
     <main
-      className='flex sm:flex-row flex-col sm:gap-y-0 gap-y-12 xl:h-screen sm:px-[10%] pt-8 pb-28 sm:py-12 sm:pb-0 sm:pt-0'
+      className='flex sm:flex-row flex-col sm:gap-y-0 gap-y-12 xl:h-screen sm:px-[10%] pt-8 pb-28 sm:py-12 sm:pb-0 sm:pt-0 my-10 xl:my-0'
       id='projects'
     >
-      {/* <Image src={} width={} height={} alt /> */}
-
       <div className='flex flex-col sm:w-1/2 w-full h-1/2 sm:h-full justify-center items-center p-4 gap-y-2'>
         <h1
           className='sm:text-[4vw] text-3xl font-medium xl:h-20'

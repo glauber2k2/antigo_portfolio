@@ -4,7 +4,7 @@ import { CaretDoubleDown } from 'phosphor-react'
 export default function Projects() {
   return (
     <main
-      className='flex sm:flex-row flex-col sm:gap-y-0 gap-y-12 xl:h-screen sm:px-[10%] pt-8 pb-28 sm:py-12 sm:pb-0 sm:pt-0 my-10 xl:my-0'
+      className='flex sm:flex-row flex-col sm:gap-y-0 gap-y-12 xl:h-screen sm:px-[10%] pt-8 pb-16 sm:py-12 sm:pb-0 sm:pt-0 my-10 xl:my-0'
       id='projects'
     >
       <div className='flex flex-col sm:w-1/2 w-full h-1/2 sm:h-full justify-center items-center p-4 gap-y-2'>
@@ -16,7 +16,15 @@ export default function Projects() {
           MEUS <span className='bg-purple-500 text-black'>PROJETOS</span>
         </h1>
         <h2
-          className='text-base sm:text-[1.5vw] font-medium xl:mb-4'
+          className='text-base sm:text-[1.5vw] font-medium xl:mb-4 sm:block hidden'
+          data-aos='fade-up'
+          data-aos-delay='250'
+        >
+          use o notebook ao lado!
+        </h2>
+
+        <h2
+          className='text-base sm:text-[1.5vw] font-medium xl:mb-4 sm:hidden'
           data-aos='fade-up'
           data-aos-delay='250'
         >

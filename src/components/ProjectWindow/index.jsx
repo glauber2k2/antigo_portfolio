@@ -27,7 +27,7 @@ export default function ProjectWindow() {
       .then((data) => {
         if (data) {
           // Filtrar repositórios que começam com "_"
-          const filteredRepositories = data.filter((repo) => repo.name.startsWith('_'));
+          const filteredRepositories = data.filter((repo) => repo.description.startsWith('*'));
           const repositoryNames = filteredRepositories.map((repo) => repo.name);
           return Promise.all(
             repositoryNames.map((name) =>
